@@ -1,0 +1,42 @@
+
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+}
+* {
+	background-color: rgba(30,15,0,0.5);
+}
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.screenshot {
+	max-width: 460px;
+}
+.idea-description {
+	max-width: 705px;
+	text-align: center;
+	border-radius: 30px;
+}
+.key-idea {
+    padding-top: 15px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.lesson {
+	background-color: #294860;
+	border-radius: 20px;
+	max-width: 705px;
+	color: white;
+	padding: 10px;
+	padding-left: 10px;
+}
+.inarow {
+	text-align: left;
+	padding-left: 10px;
+}

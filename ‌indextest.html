@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<!-- Standard HTML site beginning.  Head contains Title (not visible) and the link to the CSS file -->
+<head>
+	<title>ITCP CCC TEST</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> <!-- h1 or heading 1 has default styles associated with it but can be augmented by the css, see line 3 on CSS -->
+	<h1>Intro to Computer Programming</h1>
+	<div class="lesson">LESSON 1  <!-- CSS styles associated with the class-lesson will apply to all lessons and represents the first hierarchical box for organizational purposes.  see line 31 in CSS doc-->
+		<div class="key-idea">HTML & the Web</div>
+			<!-- The second level (Line 25 in CSS file) is associated with each new idea in each lesson.  There can be multiple key-ideas per lesson each with their own div-->
+			<div class="idea-description">
+					<!--idea description describes the idea each idea concept int the lesson and is the third level in the hierarchy.  See line 20 in the CSS file  --><!-- The following code was cut and pasted from Lesson 0.  By inserting the rudimentary HTML codes as is into the CSS hierarchy lets it inherit the styles associated with the new formats.  This shows the flexibility of HTML & CSS -->
+
+				<p><b>HTML - Hypertext Markup Language</b><br><br>
+					<u><b>Types of files on the Web:</b></u><br>
+					<b>Plain text<br>
+					html<br>
+					images<br>
+					videos<br>
+					  music<br></b> <br>
+
+
+					<u><b>Major components of the Web:</b></u><br>
+					<b>Browser<br>
+					Internet<br>
+					Servers<br>
+					HTTP</b><br><br>
+
+
+					<b><u>Components of HTML:</u></b><br><br>
+					<p>Markup divided into tags & elements.  An element is a complete tag sentence with a start and finish tag.</p>
+
+					<p>Examples of tags:</p>
+					Bold &lt;b&gt; = <b>content</b><br>
+					Italic &lt;em&gt; =<em>content</em><br>
+					<p>Information to be "marked" is enclosed in identifyng brackets</p>
+
+					<b><u>Attributes</u></b><br>
+					<p>Attributes subscribe a value or relationship to the content.
+					example linking a webpage to specific content:
+					  <a href="udacity.com">Webpage</a> </p>
+
+					<p>Another Attribute displays an image by pointing to an image file.  The image attributes looks like this:<br>
+					&lt;img src="url" alt="Its broke" &gt;<br>
+
+					  <b>The Alt instruction is important to the link breaks and for the blind.</b><br>
+
+					  <em>(I'm not sure how to type html code on a web page so that the markup codes appear)</em></p>
+
+					<p>I have not used any markup yet so my test is all crammed together which is a good example of how white space works.  By the time you read this, (I Hope), the text will be in better shape.</p>
+
+					<p>I will be adding line breaks using &lt;br&gt; as well as paragraph blocks with the &lt;p&gt; markup.</p>
+
+					<!-- Because I thought the list in the following segment would look better left justified, I created a new class to associate to the text.  This also shows the HTML & CSS capability of being able to associate the most specific style to an element of the page.-->
+
+					<div class="inarow">Other inline markups are <br>&lt;span&gt;<br>&lt;br&gt;<br>&lt;img&gt;,<br> &lt;a&gt;,<br> and many more.</div>
+
+					<p>The HTML page is made up of Doctype html head body:</p>
+					<div class="inarow">
+					<b>1-What is a Web Page<br>
+					2-How Coding Works<br>
+					3-Computers are stupid<br>
+					4-Programmers Can't remember everything<br>
+					5-Basic HTML Vocabulary
+					<br>Tag,<br>Element,<br>Attibute<br><br>  </b>
+					</div>
+				</div>
+			</div>
+	<div class="lesson">LESSON 2>
+		<div class="key-idea">HTML & and Structuring a Webpage</div>
+			<div class="idea-description"><p>HTML coding starts to make sense when the page information is broken up into boxes.  Everything is a rectangle on the Webpage and the &lt;div&gt; or division is one of the keys to understanding how it all works</p>
+				<p>As mentioned before, Webpage coding joins the natural organization of ideas with the tree stucture of an HTML Webpage.  Purely for the programmer's enhanced understanding, different ideas and subideas are indented in the page consistent with the information's hierarchical organization. </p>
+				<p>  In addition to making it easier for the programmer to read the code later, the hierarchical approach provides a very useful device to reduce repetition which will come up under CSS in the next chapter.</p>
+				<p> Concepts learned in lesson 1 like "inline" versus "block" now become more sharply into focus. An inline tag like &lt;span&gt; may be used in the center of a paragraph without causing a disruption in the flow of information while a block element like &lt;div&gt; or &lt;p&gt; will break out the encapsulated data into a separate block or rectangle.</p><p> The structure of an HTML document can look fairly complicated but an HTML editor like Sublime makes the job a bit easier.  It no only automatically creates enclosures but will also auto-lookup many HTML DOM styles.</p>
+
+			</div>
+		</div>
+	<div class="lesson">LESSON 3
+		<div class="key-idea">HTML & and CSS</div>
+			<div class="idea-description" style="text-align: left;"><!--for this div, I decided to apply the style in line to the div instead of via the CSS file or the Head area.  I could have also been more specific and set a smaller, specific span of content to apply a style.  I'm not sure exactly how to do that but I'm hoping you are not reading that deeply into these notes :-) -->
+				<p>Cascading Style Sheets or CSS is a very powerful tool when building or maintaining larger web projects. Using CSS lets the programmer separate the content of a web page from the style settings.  A web page can be made to look more appealing or be quickly updated so it doesn't get stale. <br> <br> <u><b>To Reiterate:</b></u><br> 1. Reduce Repetition<br>2. Enhance Maintainability<br>3. Simplify coding<br>4. Enhances Appearance </p>
+				<p> There are three primary techniques for applying style to a webpage.</p>
+				<p> A Style can be added in-line to a &lt;div&gt; or &lt;p&gt;, or &lt;span&gt; to change the look of a specific division, paragraph or a smaller section of data (respectively). </p><p>A style can also be added between the &lt;head&gt; tags to be applied to the entire page.  <p> Finally, and most common, Styles can be contained in a separate file as CSS files.  Multiple CSS files can be associated with a page or project</p>  
+
+
+		</div>
+	</div>
+</body>
+</html>
